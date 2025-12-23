@@ -1,7 +1,7 @@
 function stringChop(str, size) {
 	let res = []
 	if(str.length=== 0){
-		return null
+		return res
 	}
 	if(str.length<=size){
 		res.push(str)
