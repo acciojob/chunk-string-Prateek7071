@@ -3,10 +3,7 @@ function stringChop(str, size) {
 	if(str.length=== 0){
 		return res
 	}
-	if(str.length<=size){
-		res.push(str)
-		return res
-	}
+
 	let i=0;
 	while(i<str.length){
 		res.push(str.slice(i,i+size))
